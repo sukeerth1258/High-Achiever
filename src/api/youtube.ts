@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY || 'AIzaSyBmCVHuJ7Rj9_j893i4FfJcsVS3rwmerck';
+const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY || '';
 const BASE_URL = 'https://www.googleapis.com/youtube/v3';
 
 export const getChannelInfo = async (handle: string) => {
